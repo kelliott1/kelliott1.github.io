@@ -101,7 +101,7 @@ main h2,
     color: #9b6bb3;
 }
 
-/* Shared Accent Color */
+/* Shared Stuff */
 .contact-table i,
 .background-item h3 i,
 main li::marker {
@@ -154,4 +154,19 @@ main li {
     border: 5px solid #fff;
     border-radius: 18px;
     box-shadow: 0 8px 25px rgb(0 0 0 / 12%);
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    padding: 18px;
+    text-align: center;
+    background-color: #171722;
+    color: #d48a3a;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.footer p {
+    margin: 0;
 }
