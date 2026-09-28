@@ -1,0 +1,187 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #efedf3;
+    color: #2a2930;
+}
+
+/* LCARS Top Bar */
+.lcars-bar {
+    display: flex;
+    gap: 6px;
+    height: 24px;
+    padding: 0 14px;
+    background-color: #171722;
+}
+
+.lcars-block {
+    height: 100%;
+}
+
+.lcars-left {
+    width: 110px;
+    background-color: #d48a3a;
+    border-radius: 0 0 0 18px;
+}
+
+.lcars-main {
+    flex: 1;
+    background-color: #9b6bb3;
+}
+
+.lcars-small {
+    width: 90px;
+    background-color: #c85a4a;
+    border-radius: 0 0 18px 0;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #d8d4dc;
+}
+
+header h1 {
+    color: #3d344c;
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+header p {
+    color: #6d6678;
+}
+
+/* LCARS Labels */
+.section-label,
+.project-number {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #d48a3a;
+    color: #171722;
+    border-radius: 14px 0 14px 0;
+
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.project-number {
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+.home-link {
+    color: #3d344c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-link i {
+    margin-right: 5px;
+    color: #d48a3a;
+}
+
+.home-link:hover{
+    color: #9b6bb3;
+}
+
+/* Main */
+main {
+    padding: 50px 0;
+}
+
+/* Projects */
+.project-section {
+    height: 100%;
+    padding: 25px;
+
+    background-color: #f8f7fa;
+    border-left: 8px solid #d48a3a;
+    border-radius: 0 12px 12px 0;
+}
+
+.project-section h2 {
+    margin-bottom: 15px;
+    color: #3d344c;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.project-section h2 i {
+    margin-right: 7px;
+    color: #9b6bb3;
+}
+
+.project-section p {
+    line-height: 1.6;
+}
+
+.project-tech {
+    color: #6d6678;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 40px;
+    padding: 18px;
+    text-align: center;
+
+    background-color: #171722;
+    color: #d48a3a;
+
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .project-section {
+        padding: 20px;
+    }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+    .lcars-bar {
+        height: 18px;
+        padding: 0 8px;
+    }
+
+    .lcars-left {
+        width: 70px;
+    }
+
+    .lcars-small {
+        width: 50px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.06em;
+    }
+
+    main {
+        padding: 30px 0;
+    }
+
+    .project-section {
+        padding: 18px;
+        border-left-width: 6px;
+    }
+
+    .section-label,
+    .project-number {
+        font-size: 0.65rem;
+    }
+}
